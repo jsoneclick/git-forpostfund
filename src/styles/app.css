@@ -16,6 +16,13 @@ body{
     .main {
         padding-top: 50px;
     }
+    .card-body {
+      width: 100%;
+    }
+
+    .main, .gallery, .faq {
+      padding: 10px !important;
+    }
 
   }
 
@@ -26,7 +33,7 @@ body{
         .main {
             padding-top: 50px;
         }
-        footer {
-            padding: 20px !important;
+        .container-fluid {
+            padding: 25px !important;
         }
       }

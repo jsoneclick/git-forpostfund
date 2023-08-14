@@ -61,7 +61,8 @@ let greenThemeOn = false;
 
         document.querySelector(".collapse").style.background = "red !important";
 
-        document.querySelector(".card-body").style.background = "#ff0000 !important";
+        document.querySelector(".card-body").style.background = "red !important";
+        document
       }
       let blueTheme = () => {
         document.querySelector(".navigation").style.background = "#2c363f";
@@ -85,7 +86,7 @@ let greenThemeOn = false;
 
         document.querySelector(".collapse").style.background = "blue !important";
 
-        document.querySelector(".card-body").style.background = "#00ff00 !important";
+        document.querySelector(".card-body").style.background = "blue !important";
       }
       if (greenThemeOn == true) {
         greenTheme();
