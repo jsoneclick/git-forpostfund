@@ -1,4 +1,4 @@
-.navigation{
+.navigation {
     box-sizing: border-box;
     width: 100%;
     height: 70px;
@@ -6,9 +6,10 @@
     background: #2c363f;
     padding-left: 100px;
     z-index: 999;
-    transition: background .4s; 
+    transition: background .4s;
 }
-.navigation ul{
+
+.navigation ul {
     list-style-type: none;
     height: 100%;
     width: auto;
@@ -17,7 +18,8 @@
     justify-content: center;
     align-items: center;
 }
-.navigation ul li{
+
+.navigation ul li {
     float: left;
     color: #FFF;
     font-size: 16px;
@@ -29,7 +31,7 @@
     position: relative;
 }
 
-.navigation ul li::before{
+.navigation ul li::before {
     content: '';
     height: 4px;
     width: 0%;
@@ -41,50 +43,55 @@
     transition: .4s;
 }
 
-.navigation ul li:hover::before{
+.navigation ul li:hover::before {
     width: 100%;
     opacity: 1;
 }
+
 .navigation ul li:nth-child(4):before,
 .navigation ul li:nth-child(5):before,
 .navigation ul li:nth-child(6):before,
-.navigation ul li:nth-child(7):before
-{
+.navigation ul li:nth-child(7):before {
     display: none;
 }
-.navigation ul li:nth-child(4), .donate-btn{
+
+.navigation ul li:nth-child(4),
+.donate-btn {
     border-radius: 10px;
     background: #e75a7c;
     padding: 10px 18px;
     font-weight: 500;
     color: black;
-    box-shadow:0 5px 0 black;
+    box-shadow: 0 5px 0 black;
     z-index: 1;
     box-sizing: border-box;
 }
-.navigation ul li:nth-child(4):active{
-    box-shadow:0 1px 0 black;
+
+.navigation ul li:nth-child(4):active {
+    box-shadow: 0 1px 0 black;
     top: 4px;
 }
+
 .navigation ul li span {
     position: absolute;
     line-height: 43px;
     margin-left: 5px;
 }
 
-.lang{
+.lang {
     top: 100px;
     transform: scale(.7);
- }
- .logotype {
-     position: absolute;
-     top: 5px;
-     transform: scale(.8);
-     cursor: pointer;
- 
- }
+}
 
- 
+.logotype {
+    position: absolute;
+    top: 5px;
+    transform: scale(.8);
+    cursor: pointer;
+
+}
+
+
 .changeThemeBtn {
     height: 30px;
     aspect-ratio: 1 / 1;
@@ -94,13 +101,16 @@
     transform: rotateZ(-45deg);
 
 }
+
 #upper {
     height: 50%;
     width: 100%;
     background: #e75a7c;
 }
+
 #bottom {
     height: 50%;
     width: 100%;
     background: #374552;
 }
+

@@ -11,24 +11,24 @@
 }
 
 
-.about .row h2{
+.about .row h2 {
     color: white;
     font-size: 30px;
 }
 
-.about .row .col-md-6{
+.about .row .col-md-6 {
     align-self: stretch;
     background-color: #515c66;
 }
 
 
-.about .row .col-md-6 div:nth-child(2) p{
+.about .row .col-md-6 div:nth-child(2) p {
     color: white;
     font-size: 18px;
 }
 
 .about .row .col-md-6 div img {
-   height: 200px;
+    height: 200px;
 }
 
 .about .row .col-md-6 div {
@@ -36,7 +36,7 @@
 }
 
 .about .row .col-md-6 div:nth-child(2) {
-   
+
     padding: 30px;
     height: 100%;
     width: 60%;
@@ -48,7 +48,7 @@
 
 
 
-  .photoAboutBlock {
+.photoAboutBlock {
     margin-top: 50px;
     width: 100%;
     min-height: 60vh;
@@ -57,44 +57,49 @@
     background-size: cover;
     background-position: 100%;
     padding: 50px;
-  }
-  .photoAboutBlock p {
+}
+
+.photoAboutBlock p {
     background-color: #00000060;
     font-size: calc(6px + 1vw);
     color: white;
     padding: 20px;
     width: 40%;
     float: right;
-  }
+}
 
-  .photoAboutBlock p:nth-child(2) {
+.photoAboutBlock p:nth-child(2) {
     float: left;
     float: bottom;
-  }
+}
 
-  @media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     .about .row .col-md-6 div {
         width: 100%;
         overflow: hidden;
 
-     }
-     .about .row .col-md-6 div:nth-child(2) {
-        height: auto;
-      
     }
-     .about .row .col-md-6 div img {
-       width: 100%;
-       height: auto;
-     }
-     .about .row .col-md-6 div:nth-child(2) {
+
+    .about .row .col-md-6 div:nth-child(2) {
+        height: auto;
+
+    }
+
+    .about .row .col-md-6 div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about .row .col-md-6 div:nth-child(2) {
         width: 100%;
     }
 
     .photoAboutBlock p {
         width: 100%;
     }
-    .photoAboutBlock p:nth-child(2){
+
+    .photoAboutBlock p:nth-child(2) {
         float: left;
         width: 100%;
     }
-  }
+}

@@ -1,22 +1,25 @@
-.request{
+.request {
     background: #374552;
     padding: 100px;
 }
 
-.request h1{
+.request h1 {
     color: #dbdbdb;
-    font-size: 10em;
+    font-size: calc(3em + 2vw);
 }
-.request p{
+
+.request p {
     color: #c2c2c2;
     font-size: 2.3em;
     width: 25vw;
 }
+
 .request svg {
     fill: #e75a7c;
     height: 60px;
     margin: 40px 10px;
 }
+
 .request input {
     height: 40px;
     width: 100%;
@@ -27,11 +30,13 @@
     outline: none;
     color: #fff;
 }
-.request h3{
+
+.request h3 {
     color: #c2c2c2;
     font-size: 22px;
     margin-top: 20px;
 }
+
 .request h4 {
     width: 100%;
     border-bottom: 3px solid #c2c2c2;
@@ -40,16 +45,18 @@
     outline: none;
     color: #fff;
 }
-.car-picker ul{
+
+.car-picker ul {
     color: white;
     background: black;
     font-size: 20px;
     list-style-type: none;
-   font-weight: 100;
+    font-weight: 100;
     overflow: hidden;
     padding: 0;
 }
-.car-picker select{
+
+.car-picker select {
     height: 40px;
     width: 100%;
     background: none;
@@ -59,16 +66,19 @@
     outline: none;
     color: #fff;
 }
+
 select option {
     background: #28323b;
 }
-h3 i{
+
+h3 i {
     float: right;
     font-size: 30px;
     color: #e75a7c;
 
 }
-.submitBtn{
+
+.submitBtn {
     height: 80px !important;
     width: 300px !important;
     background: #151a1f !important;
@@ -83,12 +93,15 @@ h3 i{
     transition: .5s;
     border: 0 !important;
 }
-.submitBtn:hover{
+
+.submitBtn:hover {
     background: #222b33 !important;
 }
-.request{
+
+.request {
     display: none;
 }
+
 #closeRequest {
     height: 60px;
     width: 60px;
@@ -104,10 +117,12 @@ h3 i{
     font-size: 34px;
     cursor: pointer;
 }
-#closeRequest:hover{
+
+#closeRequest:hover {
     background: #00000080;
 }
-.custom-file{
+
+.custom-file {
     height: 100%;
     width: 100%;
     opacity: 0;

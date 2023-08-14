@@ -1,17 +1,19 @@
 footer {
     background: #151a1f;
     padding: 50px 100px !important;
-    
+
 }
+
 footer h3 {
     color: #a8a8a8;
 }
 
 .nav {
     font-size: 14px !important;
-    
-    
+
+
 }
+
 .nav li {
     padding: 0 !important;
 }
@@ -21,14 +23,15 @@ footer h3 {
     padding: 0 !important;
     margin: 20px 0;
     margin-right: 30px;
-   
+
 }
 
 h3 svg {
     transform: scale(1.4);
     margin-right: 20px;
 }
-h3 path { 
+
+h3 path {
     fill: white;
 }
 
