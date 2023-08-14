@@ -114,3 +114,17 @@
     background: #374552;
 }
 
+.mobileNavigation {
+    background: #374552;
+    color: #fff;
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+    padding: 40px 20px;
+    
+
+}
+
+.mobileNavigation ul {
+    list-style-type: none;
+}

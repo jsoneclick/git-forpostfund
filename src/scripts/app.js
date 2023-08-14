@@ -56,6 +56,11 @@ let changeTheme = () => {
     document.getElementById("bottom").style.background = "#797A3A";
     document.querySelector(".about").style.background = "#5b5c26";
 
+    let personListAbout = document.querySelectorAll(".col-md-6");
+    for (let i = 0; i < personListAbout.length; i++) {
+      personListAbout[i].style.background = "#a19b4a";
+    }
+
     document.querySelector(".btn").style.background = "red !important";
     document.getElementById("collapseOne").style.background = "red !important";
 
@@ -80,6 +85,11 @@ let changeTheme = () => {
     document.getElementById("upper").style.background = "#e75a7c";
     document.getElementById("bottom").style.background = "#374552";
     document.querySelector(".about").style.background = "#2c363f";
+
+    let personListAbout = document.querySelectorAll(".col-md-6");
+    for (let i = 0; i < personListAbout.length; i++) {
+      personListAbout[i].style.background = "#515c66";
+    }
 
     document.querySelector(".btn").style.background = "blue !important";
     document.getElementById("collapseOne").style.background = "blue !important";
