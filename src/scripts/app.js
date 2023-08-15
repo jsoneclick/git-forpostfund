@@ -31,8 +31,13 @@ let openCarRequest = (req) => {
     document.querySelector(".request").style.display = "none";
     document.querySelector(".about").style.display = "none";
   }
-
 }
+
+function closeMobileMenu() {
+  var mobMenu = document.querySelector(".mobileNavigation");
+  mobMenu.classList.toggle("opened");
+}
+
 let changeTheme = () => {
   if (greenThemeOn == false) {
     greenThemeOn = true;

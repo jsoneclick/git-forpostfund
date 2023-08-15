@@ -71,27 +71,21 @@
     box-shadow: 0 1px 0 black;
     top: 4px;
 }
-
 .navigation ul li span {
     position: absolute;
     line-height: 43px;
     margin-left: 5px;
 }
-
 .lang {
     top: 100px;
     transform: scale(.7);
 }
-
 .logotype {
     position: absolute;
     top: 5px;
     transform: scale(.8);
     cursor: pointer;
-
 }
-
-
 .changeThemeBtn {
     height: 30px;
     aspect-ratio: 1 / 1;
@@ -99,32 +93,82 @@
     border-radius: 100%;
     overflow: hidden;
     transform: rotateZ(-45deg);
-
 }
-
 #upper {
     height: 50%;
     width: 100%;
     background: #e75a7c;
 }
-
 #bottom {
     height: 50%;
     width: 100%;
     background: #374552;
 }
-
 .mobileNavigation {
     background: #374552;
     color: #fff;
     position: absolute;
     z-index: 999;
-    width: 100vw;
+    width: 60vw;
     padding: 40px 20px;
-    
-
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100vw;
+    display: none;
 }
-
 .mobileNavigation ul {
     list-style-type: none;
+    font-size: calc(10px + 1em);
 }
+.mobileNavigation ul li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.mobileNavigation ul a {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+.mobileNavigation h1 {
+    display: inline;
+    width: 5px;
+    overflow: hidden;
+    font-size: 26px;
+}
+.mobileNavigation div {
+    display: inline-block;
+    margin-top: 20px;
+}
+.mobileNavigation svg {
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.bottomLinks {
+    width: 100%;
+    
+}
+.bottomLinks, .bottomLinks ul {
+    width: 100%;
+}
+.bottomLinks ul li {
+    font-size: 15px !important;
+    margin-left: 20px;
+}
+
+.bottomLinks ul li:nth-child(3) {
+    float: right;
+    margin: -20px 50px;
+}
+
+.mobileNavigation .fa-solid {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.opened {
+    display: block;
+}
+
